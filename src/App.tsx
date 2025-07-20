@@ -3,13 +3,12 @@ import "./style.css";
 
 type Option = { text: string; votes: number };
 
-const App = () => {
+const App: React.FC = () => {
   const [question, setQuestion] = useState("");
   const [options, setOptions] = useState<Option[]>([{ text: "", votes: 0 }]);
   const [submitted, setSubmitted] = useState(false);
 
   const addOption = () => setOptions([...options, { text: "", votes: 0 }]);
-
   const handleOptionChange = (i: number, value: string) => {
     const temp = [...options];
     temp[i].text = value;
