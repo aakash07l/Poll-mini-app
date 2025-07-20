@@ -7,7 +7,7 @@
   "frame": {
     "version": "1",
     "name": "Poll Mini App",
-    "iconUrl": "https://poll-mini-app.vercel.app/icon.png",
+    "iconUrl": "https://poll-mini-app.vercel.app/logo.png",
     "homeUrl": "https://poll-mini-app.vercel.app",
     "imageUrl": "https://poll-mini-app.vercel.app/image.png",
     "buttonTitle": "Check this out",
