@@ -54,8 +54,8 @@ function CreatePoll({ onAddPoll }: { onAddPoll: (poll: Poll) => void }) {
           onChange={e => handleOptionChange(i, e.target.value)}
         />
       ))}
-      <button className="add-btn" onClick={addOption}>Option aur jodo</button>
-      <button className="submit-btn" onClick={submit}>Poll create karo</button>
+      <button className="add-btn" onClick={addOption}>Add Option</button>
+      <button className="submit-btn" onClick={submit}>Create Poll</button>
     </div>
   );
 }
