@@ -6,7 +6,7 @@
   },
   "frame": {
     "version": "1",
-    "name": "Example Frame",
+    "name": "Poll Mini App",
     "iconUrl": "https://poll-mini-app.vercel.app/icon.png",
     "homeUrl": "https://poll-mini-app.vercel.app",
     "imageUrl": "https://poll-mini-app.vercel.app/image.png",
