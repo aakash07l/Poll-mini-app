@@ -37,7 +37,7 @@ function CreatePoll({ onAddPoll }: { onAddPoll: (poll: Poll) => void }) {
       setOptions([{ text: "", votes: 0 }, { text: "", votes: 0 }]);
       alert("Poll created!");
     } else {
-      alert("सवाल और सभी options भरो!");
+      alert("Add Questions and options than Create!");
     }
   };
 
