@@ -1,11 +1,37 @@
-<meta name="fc:miniapp" content='{
-  "imageUrl":"https://poll-mini-app.vercel.app/icon.png",
-  "button":{
-    "title":"Open Poll",
-    "action":{
-      "type":"launch_frame",
-      "name":"Poll Mini App",
-      "url":"https://poll-mini-app.vercel.app/"
-    }
-  }
-}' />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poll Lite Mini App</title>
+    <!-- Farcaster miniapp embed meta tag -->
+    <meta name="fc:miniapp" content='{
+      "imageUrl":"https://poll-mini-app.vercel.app/icon.png",
+      "button":{
+        "title":"Open Poll",
+        "action":{
+          "type":"launch_frame",
+          "name":"Poll Mini App",
+          "url":"https://poll-mini-app.vercel.app/"
+        }
+      }
+    }' />
+    <!-- (Optional but recommended for Frame legacy support) -->
+    <meta name="fc:frame" content='{
+      "imageUrl":"https://poll-mini-app.vercel.app/icon.png",
+      "button":{
+        "title":"Open Poll",
+        "action":{
+          "type":"launch_frame",
+          "name":"Poll Mini App",
+          "url":"https://poll-mini-app.vercel.app/"
+        }
+      }
+    }' />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
