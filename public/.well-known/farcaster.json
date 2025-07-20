@@ -1,10 +1,18 @@
 {
-  "name": "Poll Lite Mini App",
-  "description": "A simple poll/survey mini app built with Next.js and TypeScript.",
-  "url": "https://aapka-vercel-url.vercel.app",
-  "icon": "https://aapka-vercel-url.vercel.app/icon.png",
-  "redirect_url": "https://aapka-vercel-url.vercel.app",
-  "version": "1.0.0",
-  "authors": ["Your Name"],
-  "contact": "your@email.com"
+  "accountAssociation": {
+    "header": "eyJmaWQiOjIzNDYyMiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGMxMEEyNDVlNzhGQzI5RGI4ZWEzYjliZDJlYTM1ZUU2MmM3Y0M5OUEifQ",
+    "payload": "eyJkb21haW4iOiJwb2xsLW1pbmktYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg0YWI2NTJkZDE0NTZkNTg3Y2YzZDlkYjIxYTI2ZGQ0YzA5MTljNGQzMDE0YjM4NTMwZDMyYWRiMmQzZTc0ZGM4NjM4NDI5MDI1NGEyMTg0OWM3MDU0YTdhZmZhNzQ2YjhlMDg5YmVkYmRjNDliMjY0NjUwZDRmNDk0OTljZWRmYTFi"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Example Frame",
+    "iconUrl": "https://poll-mini-app.vercel.app/icon.png",
+    "homeUrl": "https://poll-mini-app.vercel.app",
+    "imageUrl": "https://poll-mini-app.vercel.app/image.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://poll-mini-app.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://poll-mini-app.vercel.app/api/webhook"
+  }
 }
