@@ -5,9 +5,9 @@
     "signature": "MHg0YWI2NTJkZDE0NTZkNTg3Y2YzZDlkYjIxYTI2ZGQ0YzA5MTljNGQzMDE0YjM4NTMwZDMyYWRiMmQzZTc0ZGM4NjM4NDI5MDI1NGEyMTg0OWM3MDU0YTdhZmZhNzQ2YjhlMDg5YmVkYmRjNDliMjY0NjUwZDRmNDk0OTljZWRmYTFi"
   },
   "frame": {
-    "version": "1",
+    "version": "1.0.0",
     "name": "Poll Mini App",
-    "iconUrl": "https://poll-mini-app.vercel.app/logo.png",
+    "iconUrl": "https://poll-mini-app.vercel.app/icon.png",
     "homeUrl": "https://poll-mini-app.vercel.app",
     "imageUrl": "https://poll-mini-app.vercel.app/image.png",
     "buttonTitle": "Check this out",
