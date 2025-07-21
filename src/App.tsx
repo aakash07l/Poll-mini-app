@@ -1,5 +1,8 @@
-import React, { useState } from "react";
-import "./style.css";
+import { sdk } from '@farcaster/frame-sdk'
+import { useEffect } from 'react'
+import { useAccount, useConnect, useReadContract, useWriteContract } from 'wagmi'
+import { config } from './wagmi'
+import { switchChain } from 'wagmi/actions'
 
 // Poll type
 type Poll = {
