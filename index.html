@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Poll Lite Mini App</title>
-    <!-- Farcaster miniapp embed meta tag -->
+    <title>Poll Mini App</title>
+    <!-- Farcaster Embed Meta (Recommended) -->
     <meta name="fc:miniapp" content='{
       "imageUrl":"https://poll-mini-app.vercel.app/icon.png",
       "button":{
@@ -17,7 +17,6 @@
         }
       }
     }' />
-    <!-- (Optional but recommended for Frame legacy support) -->
     <meta name="fc:frame" content='{
       "imageUrl":"https://poll-mini-app.vercel.app/icon.png",
       "button":{
@@ -29,6 +28,11 @@
         }
       }
     }' />
+    <!-- For OG/SEO -->
+    <meta property="og:title" content="Poll Mini App" />
+    <meta property="og:description" content="Create and vote on polls. Farcaster mini-app demo." />
+    <meta property="og:image" content="https://poll-mini-app.vercel.app/icon.png" />
+    <meta property="fc:frame:image" content="https://poll-mini-app.vercel.app/icon.png" />
   </head>
   <body>
     <div id="root"></div>
