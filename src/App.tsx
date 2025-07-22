@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./style.css";
 
 type Poll = { question: string; options: { text: string; votes: number }[] };
